@@ -14,6 +14,9 @@ fun main () {
 
     )
 
+    val temp = hashMapOf<String, String>()
+    temp[name] = number
+    number = temp[name]
     println(m.get("key"))
     println("null to ${m[null]}")
 
